@@ -1,13 +1,15 @@
 {
-  "name": "clear-video-history",
+  "name": "live-stream-extractor",
   "version": "0.0.0",
-  "description": "ClearVideoHistory",
+  "description": "LiveStreamExtractor",
   "main": "app.js",
   "author": {
     "name": "miguel"
   },
   "dependencies": {
-    "mz": "^2.7.0",
-    "moment": "^2.22.2"
+    "mqtt": "~2.18.2",
+    "rxjs": "6.5.2",
+    "dateformat": "3.0.3",
+    "cron": "1.8.2"
   }
 }
