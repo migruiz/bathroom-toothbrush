@@ -26,5 +26,5 @@ of(3).pipe(
      ))
 ).subscribe(async m => {
     console.log('bathroom/master/state', m);
-    (await mqtt.getClusterAsync()).publishMessage('bathroom/master/state',m)
+    (await mqtt.getClusterAsync()).publishMessage('bathroom/master/switch/state',m)
 })
