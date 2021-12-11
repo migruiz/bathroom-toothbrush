@@ -21,8 +21,8 @@ const nightTimeTariffStream = () =>  new Observable(subscriber => {
 of(3).pipe(
  concatMap(v => of(v).pipe(
      delay(20  * 1000),
-     mapTo("OFF"),
-     startWith("ON")
+     mapTo("off"),
+     startWith("on")
      ))
 ).subscribe(async m => {
     console.log('bathroom/master/state', m);
