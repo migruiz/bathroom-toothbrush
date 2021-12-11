@@ -1,0 +1,13 @@
+{
+  "name": "clear-video-history",
+  "version": "0.0.0",
+  "description": "ClearVideoHistory",
+  "main": "app.js",
+  "author": {
+    "name": "miguel"
+  },
+  "dependencies": {
+    "mz": "^2.7.0",
+    "moment": "^2.22.2"
+  }
+}
