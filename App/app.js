@@ -20,7 +20,7 @@ const nightTimeTariffStream = () =>  new Observable(subscriber => {
 
 nightTimeTariffStream().pipe(
  concatMap(v => of(v).pipe(
-     delay(8 * 60  * 1000),
+     delay(9 * 60 * 60  * 1000),
      mapTo("off"),
      startWith("on")
      ))
