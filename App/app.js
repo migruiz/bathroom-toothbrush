@@ -8,7 +8,7 @@ global.mtqqLocalPath = process.env.MQTTLOCAL;
 const nightTimeTariffStream = () =>  new Observable(subscriber => {  
     
     new CronJob(
-        '0 23 * * *',
+        '0 24 * * *',
        function() {
            subscriber.next();
        },
